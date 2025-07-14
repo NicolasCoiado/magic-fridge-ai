@@ -19,6 +19,7 @@ public class FoodItem {
     private Long id;
     @Column(name = "nome")
     private String nome;
+    @Enumerated(EnumType.STRING)
     @Column(name = "categoria")
     private FoodCategory categoria;
     @Column(name = "quantidade")

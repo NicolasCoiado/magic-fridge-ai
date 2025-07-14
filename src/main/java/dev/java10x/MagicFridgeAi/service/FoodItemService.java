@@ -5,7 +5,6 @@ import dev.java10x.MagicFridgeAi.mapper.FoodItemMapper;
 import dev.java10x.MagicFridgeAi.model.FoodItem;
 import dev.java10x.MagicFridgeAi.repository.FoodItemRepository;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -58,6 +57,5 @@ public class FoodItemService {
         }else{
             return null;
         }
-
     }
 }
